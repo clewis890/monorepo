@@ -43,11 +43,7 @@ export default function LoginPage(props) {
       />
       <div
         className={classes.pageHeader}
-        style={{
-          backgroundImage: "url(" + image + ")",
-          backgroundSize: "cover",
-          backgroundPosition: "top center"
-        }}
+        style={{ backgroundImage: `url(" + image + ")`, backgroundSize: "cover", backgroundPosition: "top center"}}
       >
         <div className={classes.container}>
           <GridContainer justify="center">
