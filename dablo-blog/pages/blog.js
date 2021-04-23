@@ -4,7 +4,7 @@ import Prismic from '@prismicio/client'
 import { RichText } from "prismic-reactjs";
 
 // Project components & functions
-import DefaultLayout from "layouts";
+import DefaultLayout from "../layouts/index.js";
 import { Header, PostList, SetupRepo } from "components/home";
 import { Client } from "utils/prismicHelpers";
 

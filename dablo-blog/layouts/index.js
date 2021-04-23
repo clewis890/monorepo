@@ -1,5 +1,5 @@
 import Footer from "components/Footer";
-import ScrollIcon from "components/ScrollIcon"
+import ScrollIcon from "components/ScrollIcon";
 /**
  * Default layout component
  */
