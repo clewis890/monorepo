@@ -1,4 +1,4 @@
-import { apiEndpoint } from 'prismic-configuration'
+import { apiEndpoint } from 'prismic-configuration.js'
 
 const PrismicScript = () => {
   const [, repoName] = apiEndpoint.match(/https?:\/\/([^.]+)?\.(cdn\.)?.+/)

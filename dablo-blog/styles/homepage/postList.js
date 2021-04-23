@@ -14,8 +14,7 @@ export const postListStyles = css.global`
 
   .blog-post h2 {
     width: fit-content;
-    color: lightgray;
-    text-shadow: 5px 0px 4px black;
+    color: #777;
     opacity: 1;
     margin: 0;
     transition: all 0.35s ease-in-out;
@@ -24,7 +23,6 @@ export const postListStyles = css.global`
   .blog-post h2:hover,
   .blog-post h2:focus {
     color: #000;
-    text-shadow: 5px 0px 4px darkgray;
   }
 
   .blog-post-meta {

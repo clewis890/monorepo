@@ -6,7 +6,6 @@ export const headerStyles = css.global`
     max-width: 700px;
     margin: auto;
   }
-
   .blog-avatar {
     height: 140px;
     width: 140px;
@@ -14,6 +13,9 @@ export const headerStyles = css.global`
     background-position: center;
     background-size: cover;
     margin: 1em auto;
+  }
+  .blog-title {
+    color: teal;
   }
 
   .blog-description {

@@ -27,10 +27,6 @@ const Footer = () => (
           alt="Prismic logo"
         />
       </a>
-      <details>
-  <summary>What?</summary>
-  This is awesome!
-</details>
     </p>
     <style jsx global>{footerStyles}</style>
   </footer>

@@ -1,13 +1,16 @@
 {
-  "name": "nextjs-blog",
-  "description": "Sample blog built with Next.js using Prismic headless CMS",
+  "name": "dab-blog",
+  "description": "Blog built with Next.js using Prismic headless CMS",
   "author": "Prismic",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/react-fontawesome": "^0.1.14",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
     "@prismicio/client": "^4.0.0",
     "next": "^9.1.4",
+    "nextjs-progressbar": "0.0.9",
     "prismic-reactjs": "^1.1.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
