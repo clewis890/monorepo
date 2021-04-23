@@ -82,9 +82,4 @@ export const postStyles = css.global`
     list-style-type: decimal;
   }
 
-  /* @media screen and (max-width: 500px) {
-    .post-part {
-      margin: 0 10px;
-    } */
-  }
 `;

@@ -18,9 +18,15 @@ export default class ScrollIcon extends Component  {
             scrollComponent.toggleVisibility();
         });
     }
+    // componentWillUnmount() {
+    //     var scrollComponent = this;
+    //     document.removeEventListener("scroll", function(e) {
+    //         scrollComponent.toggleVisibility();
+    //     });
+    // }
 
     toggleVisibility() {
-        if (window.pageYOffset > 300) {
+        if (window.pageYOffset > 500) {
             this.setState({
                 is_visible: true
             });
